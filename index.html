@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>E-Commerce Website</title>
+        <link rel="stylesheet" type="text/css" href="PRACTICE.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>Select Category</h1>
+            <select id="category" onchange="showItems()">
+                <option value="">-- Please Select Category --</option>
+                <option value="electronics">Electronics</option>
+                <option value="books">Books</option>
+                <option value="clothes">Clothing</option>
+                <option value="toys">Toys</option>
+                <option value="food">Food</option>
+            </select>
+            <br>
+
+            <div id="show-items">
+                Selected Category Items will be displayed here!
+            </div>
+            <br>
+
+            <div id="count-show">
+                <div id="added-items">
+                    <span>Selected Items : </span>
+                    <ul id="select-list">
+                    </ul>
+                </div>
+                <br>
+                <span>Number Of Items In Your Cart : <span id="count">0</span></span>
+            </div>
+            <br>
+
+            <div>
+                <span>Total Amount : <span id="total">0.0</span> $.</span>
+                <br>
+                <br>
+                <button id="clear-cart">Clear Cart</button>
+            </div>
+        </div>
+        <script src="PRACTICE.js"></script>
+    </body>
+</html>
