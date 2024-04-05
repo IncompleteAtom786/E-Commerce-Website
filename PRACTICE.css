@@ -18,9 +18,8 @@ div{
 }
 
 #container{
-    align-items: center;
-    align-self: center;
-    width: fit-content;
+    width: 50%;
+    margin-left: 25%;
     height: fit-content;
     display: flex;
     flex-direction: column;
